@@ -11,7 +11,7 @@ And so, the first numbers of a Fibonacci sequence starts with 0, 1, 1, 2, 3, ...
 Read more on [Fibonacci Numbers](https://en.wikipedia.org/wiki/Fibonacci_number).
 
 A more detailed document explaining this project and its support, please visit,
- https://docs.google.com/document/d/1LEgIp4q9z0K6YFIAMcPWRJCnZJg_c0mdHEGLbb9t5OU/edit
+https://docs.google.com/document/d/1LEgIp4q9z0K6YFIAMcPWRJCnZJg_c0mdHEGLbb9t5OU/edit?usp=sharing
 
 A test file is in the ```tests``` directory.
 
