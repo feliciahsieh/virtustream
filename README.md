@@ -24,6 +24,7 @@ This app uses python, flask. Curl is used for testing.
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Test](#test)
 
 
 ## Environment
@@ -60,3 +61,15 @@ Here's the screenshot of both vagrant windows after running a number of queries,
 n = 0, n = 1, n = 2, n = 3, n = 4, n = 5, n = 6, n = 7, n = 16
 
 <p align="center"><img src="webSvcFibonacci.png" style="height:200px" /></p>
+
+## Test
+
+To run the python tests, use
+```
+python3 -m doctest -v ./tests/testFibonacci.txt
+```
+or
+```
+python3 -m doctest -v ./tests/testFibonacci.txt | tail -2
+
+```
