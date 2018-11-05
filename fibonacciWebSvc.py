@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""fibonacciWebSvc - finds Fibonacci sequence of n size
+"""fibonacci - finds Fibonacci sequence of n size
    Arguments: n - number of Fibonacci elements to return
    Returns: Fibonacci sequence as a list
    Linter: pycodestyle v2.4.0
@@ -14,8 +14,10 @@ def fibonacci(n=0):
 
     # Validate user data value, n
     try:
-        n = int(n)
-
+        if int(n) != float(n):
+            raise Exception("Invalid value entered")
+        else:
+            n = int(n)
     except Exception as e:
         print("ERROR: {}".format(e))
         return
